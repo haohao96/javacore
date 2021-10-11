@@ -8,9 +8,9 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<groupId>com.pyh</groupId>
-	<artifactId>thirdchapter</artifactId>
+	<artifactId>inherit</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>thirdchapter</name>
+	<name>inherit</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>

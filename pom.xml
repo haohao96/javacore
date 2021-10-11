@@ -12,9 +12,11 @@
     <artifactId>javacore</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>javacore</name>
+    <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
     <modules>
         <module>thirdchapter</module>
+        <module>inherit</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

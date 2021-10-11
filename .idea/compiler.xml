@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="thirdchapter" />
-        <module name="javacore" />
+        <module name="inherit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
+      <module name="inherit" target="1.8" />
       <module name="javacore" target="1.8" />
       <module name="thirdchapter" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="inherit" options="-parameters" />
       <module name="javacore" options="-parameters" />
       <module name="thirdchapter" options="-parameters" />
     </option>
